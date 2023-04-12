@@ -7,7 +7,7 @@ module.exports = {
         has: [
           {
             type: "host",
-            value: "api.ensideas.com",
+            value: "ens.bunches.io",
           },
         ],
         source: "/:path*",
@@ -20,7 +20,7 @@ module.exports = {
       has: [
         {
           type: "host",
-          value: "api.ensideas.com",
+          value: "ens.bunches.io",
         },
       ],
       source: "/api/:path*",
@@ -44,7 +44,7 @@ module.exports = {
       has: [
         {
           type: "host",
-          value: "api.ensideas.com",
+          value: "ens.bunches.io",
         },
       ],
       source: "/:path*",
