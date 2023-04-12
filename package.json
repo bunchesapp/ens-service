@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "ens-ideas",
+  "name": "ens-service",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -14,7 +14,7 @@
   "dependencies": {
     "next": "^12.0.7",
     "react": "17.0.2",
-    "viem": "^0.2.5",
+    "viem": "^0.2.5"
   },
   "devDependencies": {
     "@types/node": "17.0.2",
