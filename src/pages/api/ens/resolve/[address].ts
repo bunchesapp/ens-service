@@ -8,7 +8,7 @@ const publicClient = createPublicClient({
   transport: http(process.env.ETHEREUM_RPC_URL),
 });
 
-const firstParam = (param: string | string[]) => {
+const firstParam = (param: string | string[] = "") => {
   return Array.isArray(param) ? param[0] : param;
 };
 
